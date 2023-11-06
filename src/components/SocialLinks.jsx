@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "www.linkedin.com/in/ mehdi-nassereddine-973b35225/",
+      href: "https://www.linkedin.com/in/mehdi-nassereddine-973b35225/",
       style: "rounded-tr-md",
     },
     {
