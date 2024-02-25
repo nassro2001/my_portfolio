@@ -17,7 +17,7 @@ const About = () => {
           A computer science minor in Business student at the Saint Joseph
           University of Beirut with strong academic achievement. Possess strong
           learning and communication skills with fluency in French, English and
-          Arabic. Keen to pursue a career in IT sector.
+          Arabic. Keen to pursue a career in IT sector. yes.
         </p>
       </div>
     </div>
