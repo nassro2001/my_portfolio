@@ -8,6 +8,8 @@ import php from "../assets/php.png";
 import sql from "../assets/sql.png";
 import reactImage from "../assets/react.png";
 import tailwind from "../assets/tailwind.png";
+import flutter from "../assets/flutter.png";
+import nodejs from "../assets/nodejs.png";
 
 const Experience = () => {
   const techs = [
@@ -58,6 +60,18 @@ const Experience = () => {
       src: php,
       title: "PHP",
       style: "shadow-blue-800",
+    },
+    {
+      id: 9,
+      src: flutter,
+      title: "Flutter",
+      style: "shadow-blue-300",
+    },
+    {
+      id: 10,
+      src: nodejs,
+      title: "NodeJS",
+      style: "shadow-green-500",
     },
   ];
 
