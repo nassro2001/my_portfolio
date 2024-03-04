@@ -10,6 +10,7 @@ import reactImage from "../assets/react.png";
 import tailwind from "../assets/tailwind.png";
 import flutter from "../assets/flutter.png";
 import nodejs from "../assets/nodejs.png";
+import android from "../assets/androidStudio.png";
 
 const Experience = () => {
   const techs = [
@@ -72,6 +73,12 @@ const Experience = () => {
       src: nodejs,
       title: "NodeJS",
       style: "shadow-green-500",
+    },
+    {
+      id: 11,
+      src: android,
+      title: "Android Studio (Java)",
+      style: "shadow-green-200",
     },
   ];
 
