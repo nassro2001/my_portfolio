@@ -1,6 +1,7 @@
 import React from "react";
 import ptApp from "../assets/portfolio/ptApp.png";
 import port from "../assets/portfolio/port.png";
+import todo from "../assets/portfolio/todo.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -11,6 +12,10 @@ const Portfolio = () => {
     {
       id: 2,
       src: port,
+    },
+    {
+      id: 3,
+      src: todo,
     },
   ];
 
