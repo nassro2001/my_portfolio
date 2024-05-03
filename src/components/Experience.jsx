@@ -11,6 +11,14 @@ import tailwind from "../assets/tailwind.png";
 import flutter from "../assets/flutter.png";
 import nodejs from "../assets/nodejs.png";
 import android from "../assets/androidStudio.png";
+import git from "../assets/git.png";
+import firebase from "../assets/firebase.png";
+import express from "../assets/express.png";
+import mongoDB from "../assets/mongoDB.png";
+import postgress from "../assets/postgress.png";
+import dart from "../assets/dart.png";
+import csharp from "../assets/c#.png";
+import wp from "../assets/wp.png";
 
 const Experience = () => {
   const techs = [
@@ -79,6 +87,54 @@ const Experience = () => {
       src: android,
       title: "Android Studio (Java)",
       style: "shadow-green-200",
+    },
+    {
+      id: 12,
+      src: dart,
+      title: "Dart",
+      style: "shadow-blue-400",
+    },
+    {
+      id: 13,
+      src: express,
+      title: "Express.js",
+      style: "shadow-white",
+    },
+    {
+      id: 14,
+      src: mongoDB,
+      title: "MongoDB",
+      style: "shadow-green-700",
+    },
+    {
+      id: 15,
+      src: postgress,
+      title: "PostgressSQL",
+      style: "shadow-blue-500",
+    },
+    {
+      id: 16,
+      src: wp,
+      title: "WordPress",
+      style: "shadow-blue-500",
+    },
+    {
+      id: 17,
+      src: git,
+      title: "Git Version Control",
+      style: "shadow-red-800",
+    },
+    {
+      id: 18,
+      src: csharp,
+      title: "C#",
+      style: "shadow-green-300",
+    },
+    {
+      id: 19,
+      src: firebase,
+      title: "Firebase",
+      style: "shadow-orange-600",
     },
   ];
 
