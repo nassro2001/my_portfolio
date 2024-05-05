@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
@@ -35,6 +35,15 @@ const SocialLinks = () => {
     },
     {
       id: 4,
+      child: (
+        <>
+          Whats App <FaWhatsapp size={30} />
+        </>
+      ),
+      href: "https://wa.me/+2250777898977",
+    },
+    {
+      id: 5,
       child: (
         <>
           Resume <BsFillPersonLinesFill size={30} />
