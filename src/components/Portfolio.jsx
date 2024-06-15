@@ -2,6 +2,7 @@ import React from "react";
 import ptApp from "../assets/portfolio/ptApp.png";
 import port from "../assets/portfolio/port.png";
 import todo from "../assets/portfolio/todo.png";
+import BD from "../assets/portfolio/BD.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -19,6 +20,11 @@ const Portfolio = () => {
       id: 3,
       src: todo,
       name: "Todo Mobile App",
+    },
+    {
+      id: 4,
+      src: BD,
+      name: "Big Data Project",
     },
   ];
 

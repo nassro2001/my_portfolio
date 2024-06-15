@@ -19,6 +19,8 @@ import postgress from "../assets/postgress.png";
 import dart from "../assets/dart.png";
 import csharp from "../assets/c#.png";
 import wp from "../assets/wp.png";
+import python from "../assets/python.png";
+import redis from "../assets/redis.png";
 
 const Experience = () => {
   const techs = [
@@ -135,6 +137,18 @@ const Experience = () => {
       src: firebase,
       title: "Firebase",
       style: "shadow-orange-600",
+    },
+    {
+      id: 20,
+      src: python,
+      title: "Python",
+      style: "shadow-yellow-600",
+    },
+    {
+      id: 21,
+      src: redis,
+      title: "Redis",
+      style: "shadow-red-600",
     },
   ];
 
